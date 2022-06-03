@@ -1,0 +1,32 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Created-By: 11.0.8 (GraalVM Community)
+Tool: Bnd-3.4.0.201707252008
+Bnd-LastModified: 1604074007422
+Export-Package: org.hibernate.annotations.common.util.impl;version="5.1.
+ 2";uses:="org.jboss.logging",org.hibernate.annotations.common.reflectio
+ n.java.generics;version="5.1.2",org.hibernate.annotations.common;versio
+ n="5.1.2",org.hibernate.annotations.common.annotationfactory;version="5
+ .1.2",org.hibernate.annotations.common.reflection.java;version="5.1.2";
+ uses:="org.hibernate.annotations.common.reflection,org.hibernate.annota
+ tions.common.reflection.java.generics",org.hibernate.annotations.common
+ .reflection;version="5.1.2",org.hibernate.annotations.common.util;versi
+ on="5.1.2";uses:="org.hibernate.annotations.common.reflection"
+Import-Package: org.hibernate.annotations.common;version="[5.1,6)",org.h
+ ibernate.annotations.common.reflection;version="[5.1,6)",org.hibernate.
+ annotations.common.reflection.java.generics;version="[5.1,6)",org.hiber
+ nate.annotations.common.util;version="[5.1,6)",org.hibernate.annotation
+ s.common.util.impl;version="[5.1,6)",org.jboss.logging;version="[3.3,4)
+ "
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Bundle-Vendor: Hibernate.org
+Main-Class: org.hibernate.annotations.common.Version
+Implementation-Vendor: Hibernate.org
+Implementation-Url: http://hibernate.org
+Bundle-Name: hibernate-commons-annotations
+Implementation-Vendor-Id: org.hibernate
+Bundle-Version: 5.1.2.Final
+Implementation-Version: 5.1.2.Final
+Automatic-Module-Name: org.hibernate.commons.annotations
+Bundle-SymbolicName: org.hibernate.common.hibernate-commons-annotations
+
