@@ -32,7 +32,10 @@ public class TestHibernate {
         Personne personne=new Personne();
 
         personne.setNom("Unknown");
+        //personne.setPrenom("Anonym");
+        personne.setAge(16);
 
+       // personneService.save(personne);
 
         DaoObject daoObject=new DaoObject();
         daoObject.setSessionFactory((SessionFactory)context.getBean("sessionFactory"));

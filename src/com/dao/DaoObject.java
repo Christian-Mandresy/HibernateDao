@@ -89,10 +89,11 @@ public class DaoObject{
                 if (obj != null) {
                     Criterion newCrit = Restrictions.eq(field1.getName(), obj);
                     criteria.add(newCrit);
-                    list = criteria.list();
+
                 } else {
                 }
             }
+            list = criteria.list();
         } catch (HibernateException ex) {
             if (transaction != null) {
                 transaction.rollback();
